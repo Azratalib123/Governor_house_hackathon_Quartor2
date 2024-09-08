@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html"
+        ><img src="images/back new.png" alt="" width="50px" height="50px"
+      /></a>
+      <br />
+      <nav>
+        <br />
+        <div class="nav-link">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="text-box">
+        <h1>HACKATHON</h1>
+        <h2>PRODUCT</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          oluptates in qui atque, dicta Lorem, ipsum dolor. <br />
+          sunt quae, dignissimos. expedita?
+        </p>
+      </div>
+    </section>
+
+    <!-- product -->
+
+    <section id="products">
+      <h2>PRODUCTS</h2>
+      <div class="product" data-category="Electronics">
+        <img src="images/eCommerce (1)_ftDah3j.webp" alt="Product 1">
+        <h3>Electronics</h3>
+        <p>$19.99</p>
+      </div>
+     
+      <div class="product" data-category="Fashion" >
+        <img src="images/ecommerce-product-photo.jpg" alt="Product 2" >
+        <h3>Fashion</h3>
+        <p>$29.99</p>
+      </div>
+
+      <div class="product" data-category="Fashion" >
+        <img src="images/E-commerce-Website-scaled.jpg" alt="Product 2" >
+        <h3>Fashion</h3>
+        <p>$29.99</p>
+      </div>
+      <div class="product" data-category="Home">
+        <img src="images/online sgop.jpg" alt="Product 3" >
+        <h3>Home Appliances</h3>
+        <p>$39.99</p>
+      </div>
+    </section>
+
+    <!-- cart -->
+
+    <h2 class="cen">SHOPING CART</h2>
+    <div id="cart-items"></div>
+    <p id="total">Total: $0.00</p>
+
+    <h1>Product Name</h1>
+    <p>Description of the product.</p>
+    <p>Price: $19.99</p>
+
+    <section id="reviews">
+      <h2>REVIEWS</h2>
+      <div id="review-list"></div>
+      <textarea id="review-input" placeholder="Write a review..."></textarea>
+      <button onclick="addReview()">Submit Review</button>
+    </section>
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>E-COMMERCE</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus
+        eum eius. Accusamus possimus cupiditate aperiam itaque molestiae nulla,
+        error <br />
+        eaque adipisci aliquam voluptate omnis maxime fuga repellat id sed,
+        consectetur nisi.
+      </p>
+      <div class="icons">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-youtube"></span>
+        <span class="fa fa-linkedin"></span>
+      </div>
+      <p>
+        Made with <span class="fa fa-heart-o checked"></span> By easy tutorial
+      </p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
